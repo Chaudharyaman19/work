@@ -441,6 +441,16 @@ main {
   z-index: -1;
 }
 
+.info_more-btn:hover,
+.info_more-btn:focus {
+  background: aqua;
+}
+
+.info_more-btn:hover::before,
+.info_more-btn:focus::before {
+  background: aqua;
+}
+
 .info_more-btn span {
   display: none;
 }
@@ -1490,9 +1500,26 @@ textarea.form-input::-webkit-resizer {
     right: -30px;
     padding: 10px 15px;
   }
-
+  .icon-inner,
+  .ionicon,
+  svg {
+    display: block;
+    color: aqua !important;
+    height: 100%;
+    width: 100%;
+  }
+  img,
+  ion-icon,
+  a,
+  button,
+  time,
+  span {
+    display: block;
+    color: aqua;
+  }
   .info_more-btn span {
     display: block;
+    color: black;
     font-size: var(--fs-8);
   }
 
