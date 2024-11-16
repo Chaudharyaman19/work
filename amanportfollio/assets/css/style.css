@@ -1511,6 +1511,7 @@ textarea.form-input::-webkit-resizer {
   }
 
   .separator {
+    background-color: aqua;
     margin: 32px 0;
   }
 
